@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+.forgot-password{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{    
+    border-radius: 10px;
+    -webkit-box-shadow: 6px 14px 13px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 14px 13px -5px rgba(0,0,0,0.75);
+    box-shadow: 6px 14px 13px -5px rgba(0,0,0,0.75);
+    background: #fffafaa9;
+    min-height: 500px;
+    
+}
+.container .row .col-md-6{
+    display: flex;
+    align-items: center;
+}
+.container .main-left{
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.container .main-left img{
+    width: 300px;
+    height: 256px;
+}
+.container .main-left h1{
+    margin-top: 50px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 42px;
+    letter-spacing: -0.6px;
+    word-spacing: -1px;
+    color: #7f8644;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: lowercase;
+}
+.container .main-right{
+    overflow-y: auto; /* có thể cuộn */
+    max-height: 500px; /* khi nó vượt quá 500px (4 account) , thì nó cuộn */
+   max-width: 500px; /*  cái này cho nó đẹp hơn thôi , bỏ cũng được  */
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.container .main-right .account-box{
+    width: 95%;
+    height: 80px;
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    -webkit-box-shadow: -2px 3px 10px 2px rgba(196,196,196,1);
+    -moz-box-shadow: -2px 3px 10px 2px rgba(196,196,196,1);
+    box-shadow: -2px 3px 10px 2px rgba(196,196,196,1);
+    border-radius: 10px;
+    
+}
+
+.container .main-right .account-box:hover{
+    border: 3px solid red;
+}
+
+.container .main-right .account-box .user-infor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-width: 320px;
+}
+.container .main-right .account-box .user-infor p{
+    width: 100%;
+    font-weight: 600;
+}
+.container .main-right .account-box img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+.container .button-box{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+.container .button-box button{
+    margin-left: 30px;
+    height: 50px;
+    padding: 0px 35px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}

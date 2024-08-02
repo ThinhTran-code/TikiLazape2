@@ -1,0 +1,29 @@
+.content form .user-details{
+    display:flex;
+}
+.content form .user-details .input-box{
+    width: 100%;
+}
+.image-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image-box span{
+    font-weight: bolder;
+}
+.image-box input{
+    display: none;
+}
+.image-box img{
+    width: 100px;
+    height: 100px;
+}
+.image-box label{
+    text-align: center;
+    background: red;
+    padding: 5px 30px;
+    border-radius: 30px;
+    color:white;
+}
