@@ -1,1 +1,1 @@
-# TikiLazape2
+This is our course project, the project consists of 5 people. We create an e-commerce website, which can help users to use the website to search, buy products on the market and also can help users to become sellers through our system.
